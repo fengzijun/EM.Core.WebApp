@@ -1,0 +1,33 @@
+﻿using EM.Configuration;
+using System;
+
+namespace EM.Data
+{
+    /// <summary>
+    /// Base data provider manager
+    /// </summary>
+    public abstract class BaseDataProviderManager
+    {
+        /// <summary>
+        /// Ctor
+        /// </summary>
+        /// <param name="settings">Data settings</param>
+        protected BaseDataProviderManager(SystemConfig settings)
+        {
+            if (settings == null)
+                throw new ArgumentNullException("settings");
+            this.Settings = settings;
+        }
+
+        /// <summary>
+        /// Gets or sets settings
+        /// </summary>
+        protected SystemConfig Settings { get; private set; }
+
+        /// <summary>
+        /// Load data provider
+        /// </summary>
+        /// <returns>Data provider</returns>
+        public abstract IDataProvider LoadDataProvider();
+    }
+}

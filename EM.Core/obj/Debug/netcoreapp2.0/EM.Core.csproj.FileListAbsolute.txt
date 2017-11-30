@@ -1,0 +1,6 @@
+C:\Users\fzj\source\repos\EM.WebApp\EM.Core\bin\Debug\netcoreapp2.0\EM.Core.deps.json
+C:\Users\fzj\source\repos\EM.WebApp\EM.Core\bin\Debug\netcoreapp2.0\EM.Core.dll
+C:\Users\fzj\source\repos\EM.WebApp\EM.Core\obj\Debug\netcoreapp2.0\EM.Core.csprojResolveAssemblyReference.cache
+C:\Users\fzj\source\repos\EM.WebApp\EM.Core\obj\Debug\netcoreapp2.0\EM.Core.csproj.CoreCompileInputs.cache
+C:\Users\fzj\source\repos\EM.WebApp\EM.Core\obj\Debug\netcoreapp2.0\EM.Core.AssemblyInfoInputs.cache
+C:\Users\fzj\source\repos\EM.WebApp\EM.Core\obj\Debug\netcoreapp2.0\EM.Core.AssemblyInfo.cs
